@@ -9,6 +9,7 @@ namespace Sweepstakes
     class Sweepstakes
     {
         //member variables
+        Dictionary<int, Contestant> sweepstakesDictionay = new Dictionary<int, Contestant>();
 
         //ctr
 
