@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Userinterface.cs" />
     <Compile Include="Contestant.cs" />
     <Compile Include="ISweepstakesManager.cs" />
     <Compile Include="Program.cs" />

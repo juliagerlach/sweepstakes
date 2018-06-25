@@ -8,38 +8,18 @@ namespace Sweepstakes
 {
     class Contestant
     {
-        //member variables
-        private string firstName;
-        private string lastName;
-        private string emailAddress;
-        private int registrationNumber;
+        public string firstName;
+        public string lastName;
+        public string emailAddress;
+        public int registrationNumber;
 
-        public string FirstName
+        public Contestant(string firstName, string lastName, string emailAddress)
         {
-            get => firstName;
-            set => firstName = value;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.emailAddress = emailAddress;
+
         }
-
-        public string LastName
-        {
-            get => lastName;
-            set => lastName = value;
-        }
-
-        public string EmailAddress
-        {
-            get => emailAddress;
-            set => emailAddress = value;
-        }
-
-        public int RegistrationNumber
-        {
-            get => registrationNumber;
-            set => registrationNumber = value;
-        }
-
-
-        //ctr
 
         //Member methods
     }
