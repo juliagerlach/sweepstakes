@@ -11,8 +11,10 @@ namespace Sweepstakes
         public static string GetFirstName()
         {
             Console.WriteLine("Please enter contestant's first name.");
-            return Console.ReadLine(); 
-        }
+            return Console.ReadLine();
+
+
+  }
 
         public static string GetLastName()
         {
@@ -24,6 +26,12 @@ namespace Sweepstakes
         {
             Console.WriteLine("Please enter contestant's email address.");
             return Console.ReadLine();
+        }
+
+        public static int GetRegistrationNumber()
+        {
+            Console.WriteLine("Please enter contestant's registration number.");
+            return int.Parse(Console.ReadLine());
         }
     }
 }
